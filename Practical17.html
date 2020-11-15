@@ -53,11 +53,11 @@
         var h = today.getHours();
         if (h < 12) {
           document.body.style.backgroundImage =
-            'url("../morning.jpg")';
+            'url("morning.jpg")';
           greeting.innerHTML = "GOOD MORNING";
         } else if (h < 16) {
           document.body.style.backgroundImage =
-            'url("../afternoon.png")';
+            'url("afternoon.png")';
           document.body.style.color = "white";
           greeting.innerHTML = "GOOD AFTERNOON";
         } else if (h < 20) {
@@ -66,7 +66,7 @@
           document.body.style.color = "white";
           greeting.innerHTML = "GOOD EVENING";
         } else {
-          document.body.style.backgroundImage = 'url("../Night.jpg")';
+          document.body.style.backgroundImage = 'url("night.jpg")';
           document.body.style.color = "white";
           greeting.innerHTML = "GOOD NIGHT";
         }
